@@ -1,0 +1,26 @@
+{
+  "formatVersion": "0.4",
+  "component": {
+    "group": "com.acme",
+    "module": "testB",
+    "version": "1",
+    "attributes": {
+      "org.gradle.status": "milestone",
+      "org.gradle.lifecycle": "ALIVE"
+    }
+  },
+  "variants": [
+    {
+      "name": "api",
+      "dependencies": [
+      ],
+      "attributes": { "org.gradle.usage": "java-api" }
+    },
+    {
+      "attributes": { "org.gradle.usage": "java-runtime" },
+      "dependencies": [
+      ],
+      "name": "runtime"
+    }
+  ]
+}

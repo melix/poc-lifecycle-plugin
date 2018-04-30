@@ -1,0 +1,26 @@
+{
+  "formatVersion": "0.4",
+  "component": {
+    "group": "com.acme",
+    "module": "testB",
+    "version": "4",
+    "attributes": {
+      "org.gradle.status": "integration",
+      "org.gradle.lifecycle": "BLACKLISTED"
+    }
+  },
+  "variants": [
+    {
+      "name": "api",
+      "dependencies": [
+      ],
+      "attributes": { "org.gradle.usage": "java-api" }
+    },
+    {
+      "attributes": { "org.gradle.usage": "java-runtime" },
+      "dependencies": [
+      ],
+      "name": "runtime"
+    }
+  ]
+}
